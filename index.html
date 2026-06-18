@@ -51,7 +51,6 @@
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#location">The House</a></li>
       <li><a href="#packing">Packing List</a></li>
-      <li><a href="#merch">Merch</a></li>
       <li><a href="#faq">FAQ</a></li>
     </ul>
     <button class="nav__mobile-toggle" id="navToggle" aria-label="Toggle navigation menu">
@@ -108,8 +107,7 @@
     <div class="about__grid">
       <div class="about__text fade-in">
         <p>Tyler and Nikhil are turning 30, and we're celebrating with a long weekend at an incredible house in Suncadia, right in the Cascade Mountains outside Seattle.</p>
-        <p>The vibe is tennis camp meets summer hangout — we'll have a tennis coach for lessons, plenty of time to rally and play, plus all the outdoor games you could want: spikeball, volleyball, you name it. No pressure, no intensity — just good times and good people.</p>
-        <p>When you're not on the court, there's a private sauna, steam room, cold plunge, hot tub, and a whole lot of mountain views to enjoy. Come hang.</p>
+        <p>The vibe is tennis camp meets summer hangout — we'll have reserved tennis courts, a casual field day, sauna and cold plunge sessions, poker and more! There's nothing better than hanging out with your friends during a PNW summer. 😎</p>
         <div class="about__highlights">
           <div class="highlight-card">
             <div class="highlight-card__icon">🎾</div>
@@ -119,7 +117,7 @@
           <div class="highlight-card">
             <div class="highlight-card__icon">🏕️</div>
             <div class="highlight-card__title">Camp Activities</div>
-            <div class="highlight-card__detail">Spikeball, volleyball, and more</div>
+            <div class="highlight-card__detail">Field day, smores and more</div>
           </div>
           <div class="highlight-card">
             <div class="highlight-card__icon">♨️</div>
@@ -163,6 +161,26 @@
         <div>
           <div class="schedule__event-title">Arrivals</div>
           <p class="schedule__event-desc">Everyone flies into Seattle and we'll organize rental cars based on flight arrival times.</p>
+          <div class="arrivals-table-wrap">
+            <table class="arrivals-table">
+              <thead>
+                <tr><th>Attendees</th><th>Arrival Time</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Mack &amp; Thot</td><td>7/9 at 12:30 PM</td></tr>
+                <tr><td>Tyler &amp; Shelby</td><td>Flexible (Seattle locals)</td></tr>
+                <tr><td>Jay &amp; Cindy</td><td>7/9 at 2:00 PM</td></tr>
+                <tr><td>Anthony &amp; Mak</td><td>7/9 at 4:30 PM</td></tr>
+                <tr><td>Rob &amp; Lily</td><td>7/9 at 2:00 PM</td></tr>
+                <tr><td>Kenton</td><td>7/9 at 2:00 PM</td></tr>
+                <tr><td>Luc</td><td>7/9 at 8:23 AM</td></tr>
+                <tr><td>Parth</td><td>TBD</td></tr>
+                <tr><td>Nik Ramen</td><td>TBD</td></tr>
+                <tr><td>Kevin Chow <span class="arrivals-table__note">(Nikhil's plus-one)</span></td><td>TBD</td></tr>
+                <tr><td>Tim Odykirk <span class="arrivals-table__note">(Tyler's plus-one)</span></td><td>TBD</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <div class="schedule__event">
@@ -200,22 +218,29 @@
       <div class="schedule__event">
         <span class="schedule__time">2:00 PM</span>
         <div>
-          <div class="schedule__event-title">Tennis Workshop</div>
-          <p class="schedule__event-desc">First tennis workshop with a pro coach.</p>
+          <div class="schedule__event-title">Field Day</div>
+          <p class="schedule__event-desc">Field day at the Dawson Park soccer field from 2–5 PM. Relay games, lawn games, and lots of laughs.</p>
         </div>
       </div>
       <div class="schedule__event">
         <span class="schedule__time">5:00 PM</span>
         <div>
-          <div class="schedule__event-title">Sauna &amp; Chill</div>
-          <p class="schedule__event-desc">Unwind after the courts.</p>
+          <div class="schedule__event-title">Sauna, Chill &amp; Get Ready</div>
+          <p class="schedule__event-desc">Unwind after the field, then freshen up for dinner.</p>
         </div>
       </div>
       <div class="schedule__event">
         <span class="schedule__time">7:00 PM</span>
         <div>
-          <div class="schedule__event-title">Dinner &amp; Games</div>
-          <p class="schedule__event-desc">Delicious group dinner and games :)</p>
+          <div class="schedule__event-title">Dinner</div>
+          <p class="schedule__event-desc">Group dinner at the house.</p>
+        </div>
+      </div>
+      <div class="schedule__event">
+        <span class="schedule__time">9:00 PM</span>
+        <div>
+          <div class="schedule__event-title">Poker Night</div>
+          <p class="schedule__event-desc">Cards, chips, and trash talk — see you at the table. ♠️</p>
         </div>
       </div>
     </div>
@@ -240,7 +265,7 @@
         <span class="schedule__time">11:00 AM</span>
         <div>
           <div class="schedule__event-title">Tennis &amp; Park Activities</div>
-          <p class="schedule__event-desc">Head to the courts for another pro lesson, fun rallying, and park activities! We'll pack a lovely park lunch as well :)</p>
+          <p class="schedule__event-desc">Tennis courts and two picnic shelters reserved at Dawson Park from 11 AM to 4 PM. Lots of tennis games plus a lesson from Tyler &amp; Nikhil, and we'll bring other outdoor activities too.</p>
         </div>
       </div>
       <div class="schedule__event">
@@ -398,6 +423,7 @@
           <li>Swimsuit</li>
           <li>Warm layer for evenings</li>
           <li>Something white (for tennis whites day!)</li>
+          <li>A nice outfit (we might go out to dinner one night)</li>
           <li>Flip flops</li>
           <li>Sunglasses &amp; hat</li>
           <li>Sauna hat (if you're fancy)</li>
@@ -418,40 +444,6 @@
   </div>
 </section>
 
-<!-- Merch Preview -->
-<section class="merch" id="merch">
-  <div class="container">
-    <div class="section-header">
-      <p class="section-header__label">Gear Up</p>
-      <h2 class="section-header__title">Official Merch</h2>
-      <div class="section-header__divider"></div>
-    </div>
-    <div class="merch__grid merch__grid--three">
-      <div class="merch__item fade-in">
-        <div class="merch__image">
-          <img src="./assets/tshirt-web-v5.png" alt="The Thirty-Love Classic t-shirt design — vintage crossed rackets with T and N initials" width="600" height="600" loading="lazy">
-        </div>
-        <h3 class="merch__title">Tournament Tee</h3>
-        <p class="merch__desc">Vintage screen-print style. Included in your welcome pack.</p>
-      </div>
-      <div class="merch__item fade-in">
-        <div class="merch__image">
-          <img src="./assets/hat-web-v3.png" alt="The Thirty-Love Classic embroidered hat patch" width="400" height="400" loading="lazy">
-        </div>
-        <h3 class="merch__title">Camp Hat</h3>
-        <p class="merch__desc">Embroidered patch cap. The official off-court uniform.</p>
-      </div>
-      <div class="merch__item fade-in">
-        <div class="merch__image">
-          <img src="./assets/headband-web.png" alt="Cream terry cloth headband with Thirty-Love branding" width="400" height="400" loading="lazy">
-        </div>
-        <h3 class="merch__title">Court Headband</h3>
-        <p class="merch__desc">Cream terry cloth sweatband. Channel your inner Federer.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- FAQ -->
 <section class="faq" id="faq">
   <div class="container">
@@ -464,7 +456,7 @@
       <div class="faq__item">
         <button class="faq__question" aria-expanded="false">Do I need to know how to play tennis?</button>
         <div class="faq__answer">
-          <p>Nope. We'll have a coach there giving lessons, and we'll keep things casual and fun. Whether you've never held a racket or you play every weekend, you'll have a great time. Plus there's plenty of non-tennis stuff to do — spikeball, volleyball, hot tub hangs, sauna sessions, you name it.</p>
+          <p>Nope. We're keeping it fun and casual. Whether you've never held a racket or you play every weekend, you'll have a great time. Plus there's plenty of non-tennis stuff to do — field day, hot tub hangs, sauna sessions, poker, you name it.</p>
         </div>
       </div>
       <div class="faq__item">
@@ -482,19 +474,28 @@
       <div class="faq__item">
         <button class="faq__question" aria-expanded="false">How do I get there from Seattle?</button>
         <div class="faq__answer">
-          <p>Suncadia is about a 1.5-hour drive east of Seattle on I-90. If you're flying in, fly into Seattle-Tacoma (SEA) and we'll help coordinate carpools. The drive through the Cascades is gorgeous.</p>
+          <p>Suncadia is about a 1.5-hour drive east of Seattle on I-90. If you're flying in, fly into Seattle-Tacoma (SEA) — the drive through the Cascades is gorgeous.</p>
+          <p>For transportation, we're planning to rent cars. Shelby &amp; Tyler will take a car that fits five people (including them), and we're renting a 15-person van to shuttle the rest of us from SEA to Suncadia and back.</p>
         </div>
       </div>
       <div class="faq__item">
         <button class="faq__question" aria-expanded="false">What's the sleeping situation?</button>
         <div class="faq__answer">
-          <p>The house has 7 bedrooms with 11 beds (5 king beds, 2 full beds, 4 twin beds) and 6.5 baths. Room assignments will be shared ahead of the trip. Couples get private rooms, and everyone else will be paired up comfortably.</p>
+          <p>The house has 7 bedrooms with 11 beds (5 king beds, 2 full beds, 4 twin beds) and 6.5 baths. Room assignments are a surprise — you'll find out when you get there. 😉</p>
         </div>
       </div>
       <div class="faq__item">
         <button class="faq__question" aria-expanded="false">What's the dress code?</button>
         <div class="faq__answer">
           <p>Casual and athletic during the day. We're planning a "tennis whites" day where everyone wears white — channel your inner Wimbledon champion. Evenings are casual too, but feel free to dress up a bit for the birthday dinner on Saturday.</p>
+          <p>We're also thinking about going out for dinner somewhere on Friday night, so pack a nice outfit just in case.</p>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question" aria-expanded="false">What does this cost?</button>
+        <div class="faq__answer">
+          <p>Nikhil &amp; Tyler are covering the Airbnb and incidentals like group shirts, the park reservation, and other camp essentials.</p>
+          <p>We're planning to split transportation and food costs with the group — we're targeting roughly <strong>$250–$300 per person</strong>, depending on how many people can make it.</p>
         </div>
       </div>
     </div>

@@ -510,6 +510,59 @@ section {
   color: var(--color-text-muted);
 }
 
+.arrivals-table-wrap,
+.faq-table-wrap {
+  margin-top: var(--space-4);
+  overflow-x: auto;
+}
+
+.arrivals-table,
+.faq-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.arrivals-table thead th,
+.faq-table thead th {
+  text-align: left;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--color-clay);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 2px solid var(--color-divider);
+}
+
+.arrivals-table tbody td,
+.faq-table tbody td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--color-divider);
+  color: var(--color-charcoal);
+}
+
+.arrivals-table tbody tr:last-child td,
+.faq-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.arrivals-table tbody td:last-child,
+.faq-table tbody td:last-child {
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-muted);
+}
+
+.arrivals-table tbody td:last-child {
+  white-space: nowrap;
+}
+
+.arrivals-table__note {
+  color: var(--color-text-muted);
+  font-size: 0.8em;
+}
+
 /* ===== Player Profiles ===== */
 
 .players {
@@ -859,7 +912,7 @@ section {
 }
 
 .faq__item--open .faq__answer {
-  max-height: 300px;
+  max-height: 1200px;
   padding-bottom: var(--space-5);
 }
 
